@@ -341,6 +341,15 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-decorators" "^7.8.3"
 
+"@babel/plugin-proposal-decorators@^7.10.5":
+  version "7.10.5"
+  resolved "https://registry-npm.rd.chanjet.com/@babel/plugin-proposal-decorators/download/@babel/plugin-proposal-decorators-7.10.5.tgz#42898bba478bc4b1ae242a703a953a7ad350ffb4"
+  integrity sha1-QomLukeLxLGuJCpwOpU6etNQ/7Q=
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.10.5"
+    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/plugin-syntax-decorators" "^7.10.4"
+
 "@babel/plugin-proposal-dynamic-import@^7.10.4", "@babel/plugin-proposal-dynamic-import@^7.8.3":
   version "7.10.4"
   resolved "https://registry-npm.rd.chanjet.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.10.4.tgz#ba57a26cb98b37741e9d5bca1b8b0ddf8291f17e"
@@ -469,7 +478,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-decorators@^7.8.3":
+"@babel/plugin-syntax-decorators@^7.10.4", "@babel/plugin-syntax-decorators@^7.8.3":
   version "7.10.4"
   resolved "https://registry-npm.rd.chanjet.com/@babel/plugin-syntax-decorators/download/@babel/plugin-syntax-decorators-7.10.4.tgz#6853085b2c429f9d322d02f5a635018cdeb2360c"
   integrity sha1-aFMIWyxCn50yLQL1pjUBjN6yNgw=
@@ -3300,11 +3309,6 @@ cosmiconfig@^6.0.0:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.7.2"
-
-cra-template@1.0.3:
-  version "1.0.3"
-  resolved "https://registry-npm.rd.chanjet.com/cra-template/download/cra-template-1.0.3.tgz#0d717b1e04cac41984a345b3feabe082fcf76eb7"
-  integrity sha1-DXF7HgTKxBmEo0Wz/qvggvz3brc=
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -6958,6 +6962,23 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
+
+mobx-react-lite@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry-npm.rd.chanjet.com/mobx-react-lite/download/mobx-react-lite-3.0.0.tgz#f39b1cb23262ce539829d47217551e04bf14a8b7"
+  integrity sha1-85scsjJizlOYKdRyF1UeBL8UqLc=
+
+mobx-react@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry-npm.rd.chanjet.com/mobx-react/download/mobx-react-7.0.0.tgz#c2eb0c3f79ade93ffb07b1ffa07cbaeb5f04e9b6"
+  integrity sha1-wusMP3mt6T/7B7H/oHy6618E6bY=
+  dependencies:
+    mobx-react-lite "^3.0.0"
+
+mobx@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry-npm.rd.chanjet.com/mobx/download/mobx-6.0.1.tgz#ec23520848527bf7834d7b4c0b54b2a8eb6e7c14"
+  integrity sha1-7CNSCEhSe/eDTXtMC1SyqOtufBQ=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
