@@ -1,2 +1,2 @@
 # react-mobx
-Mobx学习chanjet
+MobX学习Chanjet，Keep Calm ,and Carry On.
