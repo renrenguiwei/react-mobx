@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { makeAutoObservable } from "mobx"
+// import { makeAutoObservable } from "mobx"
 import { observer } from "mobx-react"
 
 @observer
